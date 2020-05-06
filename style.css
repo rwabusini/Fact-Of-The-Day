@@ -1,15 +1,21 @@
 #name{
-	align-items: center;
+text-align: center;
 }
 
 #email{
-align-items: center;
+text-align: center;
 }
 
 #title{
-align-items: center;
+	color:red;
+  text-align: center;
+
 }
 
 #center{
-	align-items: center;
+text-align: center;
+}
+
+body {
+  background-image: url('background.jpg');
 }
