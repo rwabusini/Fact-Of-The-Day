@@ -1,3 +1,3 @@
-function square(x) {
-  return x * x;
-}
+document.getElementById("enter").onclick = function () {
+        location.href = "Welcome.html";
+    };
