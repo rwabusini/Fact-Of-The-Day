@@ -4,9 +4,29 @@ body {
 
 .title {
 	text-align: center ;
+	font-family: "Lucida Console", Courier, monospace;
+	color: #330000;
+	font-size: 80px;
 }
 
 #animal {
-	height: 200;
-	width: 300;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  height: 230px;
+  width: 350px;
+  margin-top: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+#cities {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  height: 230px;
+  width: 350px;
+  margin-top: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
 }

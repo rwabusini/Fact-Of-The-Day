@@ -3,6 +3,6 @@ document.getElementById("animal").onclick = function () {
     };
 
 
-document.getElementById("random").onclick = function () {
-        location.href = "Random.html";
+document.getElementById("cities").onclick = function () {
+        location.href = "Cities.html";
     };

@@ -1,14 +1,18 @@
+<!DOCTYPE html>
 <html>
 <head>
-  <title>Reactor Prep Lesson</title>
+	<link rel="stylesheet" type="text/css" href="animal.css">
+  <title> Fact of the day! </title>
 </head>
 <body>
-  <h1>Welcome!</h1>
-  <p>When completing exercises, you'll want to work with the console on <em>this page</em>. Whenever you make changes in the <code>main.js</code> file, do the following:</p>
-  <ul>
-    <li><strong>Save</strong> the <code>main.js</code> file.</li>
-    <li><strong>Refresh</strong> this page. Use CMD-R (Mac) or CTRL-R (Windows/Linux) to do so.</li>
-  </ul>
-  <script type="text/javascript" src="main.js"></script>
+  <div class="main">
+  	 <img id="fish" src="animals/fish.PNG" alt="Fish" onclick="change1();">
+  	 <img id="giraffe" src="animals/giraffe.PNG" alt="Giraffe" onclick="change2();">
+  	 <img id="otter" src="animals/otter.PNG" alt="Otter" onclick="change3();"><br><br>
+  	 <img id="ping" src="animals/ping.PNG" alt="Ping" onclick="change4();">
+  	 <img id="puffin" src="animals/puffin.PNG" alt="Puffin" onclick="change5();">
+  	 <img id="whale" src="animals/whale.PNG" alt="Whale" onclick="change6();">
+  </div>
+  <script type="text/javascript" src="animal.js"></script>
 </body>
 </html>
