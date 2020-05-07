@@ -1,4 +1,29 @@
-#title {
-	text-align: center;
-	color: red;
+<<<<<<< HEAD
+#name{
+text-align: center;
+}
+
+#email{
+text-align: center;
+}
+
+#title{
+
+  text-align: center;
+
+}
+
+#center{
+	 margin-top: 250px;
+text-align: center;
+}
+
+
+#centerCity{
+margin-top: 50px;
+text-align: center;
+}
+
+body {
+  background-image: url('background.jpg');
 }
