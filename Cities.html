@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 <head>
   <link rel="stylesheet" type="text/css" href="style.css">
@@ -5,24 +6,27 @@
 </head>
 <body>
 	<div id="centerCity">
-  <h1>The Most Beautiful Cities In The World</h1>
-  <label for="cities">Choose City:</label>
+      <h1>The Most Beautiful Cities In The World</h1>
+      <label for="cities">Choose City:</label>
 
-  <select id="cities" required>
-  <option value="paris">Paris</option>
-  <option value="doha">Doha</option>
-  <option value="venice">Venice</option>
-  <option value="beirut">Beirut</option>
-  <option value="budapest">Budapest</option>
-  <option value="istanbul">Istanbul</option>
-  <option value="jerusalem">Jerusalem</option>Kyoto-Japan
-  <option value="kyoto">Kyoto</option>
-  <option value="san-miguel">San-Miguel</option>
-  <option value="Athens">Athens</option>
-</select>
-<button onclick="myFunction()">More info</button>
-<p id="demo"></p>
-</div>
+		<select id="city" onchange="setCity()"  >
+		  	<option value="Paris.jpg">Paris</option>
+		  	<option value="Doha.jpg">Doha</option>
+		  	<option value="Cities/venice.jpg">Venice</option>
+		  	<option value="Cities/Beirut.jpg">Beirut</option>
+		  	<option value="Cities/Budapest.jpg">Budapest</option>
+		  	<option value="Cities/istanbul.jpg">Istanbul</option>
+		  	<option value="Cities/Jerusalem.jpg">Jerusalem</option>
+		  	<option value="Cities/Kyoto.jpg">Kyoto</option>
+		  	<option value="Cities/San-Miguel.jpg">San-Miguel</option>
+		  	<option value="Cities/Athens.jpg">Athens</option>
+		</select>
+
+     
+        <div id="center-home">
+	        	</div>
+			      <img id = "city-image"><br><br>
+	    		</div>
   <script type="text/javascript" src="main.js"></script>
 </body>
 </html>

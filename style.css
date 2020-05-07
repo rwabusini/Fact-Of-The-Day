@@ -24,6 +24,13 @@ margin-top: 50px;
 text-align: center;
 }
 
+
+#center-home{
+margin-top: 50px;
+margin-right: 50px
+text-align: right;
+}
+
 body {
   background-image: url('background.jpg');
 }
