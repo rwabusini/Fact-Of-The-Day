@@ -1,0 +1,69 @@
+body {
+	background-color: #3366cc;
+}
+
+#fish {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  height: 230px;
+  width: 150px;
+  margin-top: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+#giraffe {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  height: 230px;
+  width: 150px;
+  margin-top: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+#otter {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  height: 230px;
+  width: 150px;
+  margin-top: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+#ping {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  height: 230px;
+  width: 150px;
+  margin-top: 80px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+#puffin {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  height: 230px;
+  width: 150px;
+  margin-top: 80px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+#whale {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  height: 230px;
+  width: 150px;
+  margin-top: 80px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
