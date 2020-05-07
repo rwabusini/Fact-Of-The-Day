@@ -37,8 +37,7 @@ document.getElementById("enter").onclick = function () {
 
 function setCity() {
     var img = document.getElementById("city-image");
-    img.src = this.value;
-    return false;
+    img.src = img.value;
 }
-document.getElementById("city").innerHTML = setCity;
+document.getElementById("city").innerHTML = setCity();
   
