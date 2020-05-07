@@ -1,0 +1,12 @@
+body {
+	background-image: url("welcome.jpg");
+}
+
+.title {
+	text-align: center ;
+}
+
+#animal {
+	height: 200;
+	width: 300;
+}
