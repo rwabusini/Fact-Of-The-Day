@@ -4,9 +4,10 @@ document.getElementById("enter").onclick = function () {
     };
 
 
-function setCity(inp) {
+function setCity() {
     var img = document.getElementById("city-image");
-    img.src = inp.value;
+    var x = document.getElementById("city").selectedIndex;
+    img.src = document.getElementsByTagName("option")[x].value;
 }
 
 document.getElementById("city").innerHTML = setCity();
