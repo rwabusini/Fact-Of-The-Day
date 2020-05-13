@@ -4,14 +4,13 @@ document.getElementById("enter").onclick = function () {
     };
 
 
-function setCity() {
+function setCity(inp) {
     var img = document.getElementById("city-image");
-    img.src = img.value;
+    img.src = inp.value;
 }
 
 document.getElementById("city").innerHTML = setCity();
-=======
-document.getElementById("city").innerHTML = setCity;
+
 
 
 // // make use of these helper function
