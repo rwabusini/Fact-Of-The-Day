@@ -6,10 +6,12 @@ document.getElementById("enter").onclick = function () {
 
 function setCity() {
     var img = document.getElementById("city-image");
-    img.src = this.value;
-    return false;
+    var x = document.getElementById("city").selectedIndex;
+    img.src = document.getElementsByTagName("option")[x].value;
 }
-document.getElementById("city").innerHTML = setCity;
+
+document.getElementById("city").innerHTML = setCity();
+
 
 
 // // make use of these helper function
@@ -116,8 +118,5 @@ document.getElementById("city").innerHTML = setCity;
 
 // // executing myfunction when the button "more info" is clicked
 // document.getElementById("more info").onclick = myFunction
-
-
-
 
   
