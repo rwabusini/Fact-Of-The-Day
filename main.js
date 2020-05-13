@@ -1,58 +1,33 @@
 function setCity() {
     var img = document.getElementById("city-image");
+    var prg = document.getElementById("city-info");
+    var name = document.getElementById("city-name");
     var x = document.getElementById ("city").selectedIndex;
     var selCity = document.getElementsByTagName("option")[x].value;
-    for (var i=0; i < cities.length; i++){
-    	if (cities[i].name === selCity) {
-            	var val = cities[i].url;
+    each(cities,function(element){
+    	if (element.name === selCity) {
+            	img.src = element.url;
+            	prg.innerHTML = element.pragraph;
+            	name.innerHTML = element.name;
 		}
-	}
-	img.src = val;
+	});
 };
 
 
-// // make use of these helper function
-// function each(coll, f) {
-//   if (Array.isArray(coll)) {
-//     for (var i = 0; i < coll.length; i++) {
-//       f(coll[i], i);
-//     }
-//   } else {
-//     for (var key in coll) {
-//       f(coll[key], key);
-//     }
-//   }
-// }
 
-// function filter(array, predicate) {
-//   var acc ;
-//   each(array, function(element, i) {
-//     if (predicate(element, i)) {
-//       acc = element;
-//     }
-//   });
-//   return acc;
-// }
+function each(coll, f) {
+  if (Array.isArray(coll)) {
+    for (var i = 0; i < coll.length; i++) {
+      f(coll[i], i);
+    }
+  } else {
+    for (var key in coll) {
+      f(coll[key], key);
+    }
+  }
+}
 
-// function map(array, func) {
-//   var acc = [];
-//   each(array, function(element, i) {
-//     acc.push(func(element, i));
-//   });
-//   return acc;
-// }
-
-// //clicking on enter button in home page will lead to the welcoming page
-// document.getElementById("enter").onclick = function () {
-//         location.href = "Welcome.html";
-//     };
-//  //clicking on home button in cities page will redirect to the home page  
-// document.getElementById("home").onclick = function () {
-//         location.href = "index.html";
-//     };
-
-// // function to iterate overall the cities options and by clicking mor info button its returning the selected option in viewing each city iformation inside div element 
- var cities = [
+var cities = [
   {
     name:"Paris",
     url:"Paris.jpg",
